@@ -1,6 +1,6 @@
 ﻿# Inicio de codigo
 cls
-$token = [System.Net.NetworkCredential]::new("",(Read-Host "Token GitHub" -AsSecureString)).Password
+$token = [System.Net.NetworkCredential]::new("",(Read-Host "Ingrese Token GitHub" -AsSecureString)).Password
 
 $headers = @{
     Authorization = "token $token"
