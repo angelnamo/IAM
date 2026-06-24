@@ -8,5 +8,5 @@ $headers = @{
 }
 
 iex (Invoke-RestMethod `
-    -Uri "https://api.github.com/repos/angelnamo/TSP_Angel_Namo/contents/Menu_Opciones.ps1" `
+    -Uri "https://api.github.com/repos/angelnamo/TSP_Angel_Namo/contents/Menu_IND.ps1" `
     -Headers $headers)
